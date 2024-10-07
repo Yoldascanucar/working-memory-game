@@ -53,11 +53,48 @@ Jackson Databind: Used to handle JSON operations in the backend.
 
 ## Setup
 
-1) Clone the repository
-   
-git clone https://github.com/your-username/working-memory-game.git
+**Prerequisites**
 
-2) 
+Java Development Kit (JDK) 14 or higher
+
+Apache Maven
+
+A web server (e.g., Apache Tomcat)
+
+**Dependencies**
+
+Hibernate Core: Version 6.5.0
+
+Jackson Databind: Version 2.14.0
+
+Servlet API: Version 3.1.0
+
+Commons Collections: Version 4.4
+
+JSTL: Version 1.2
+
+Hibernate Commons Annotations: Version 6.0.6
+
+Taglibs Standard: Version 1.1.2
+
+**Installation**
+
+1) Clone the repository:
+
+git clone https://github.com/yourusername/working-memory-game.git
+
+2) Navigate to the project directory:
+   
+cd working-memory-game
+
+3) Build the project using Maven:
+
+mvn clean install
+
+Deploy the generated WAR file to your web server.
+
+4) Deploy the generated WAR file to your web server.
+
 
 ## How to Play
 
@@ -72,12 +109,28 @@ Press Check to validate your input.
 
 ## Game Modes
 
--Game Modes-
+Forwards: Recall the sequence in the same order as displayed.
 
-Forwards: Memorize and recall digits in the same order as they are displayed.
+Backwards: Recall the sequence in reverse order.
 
-Backwards: Memorize and recall digits in reverse order.
+Sequencing: Rearrange the digits in ascending numerical order.
 
-Sequencing: Rearrange digits in ascending order.
+Letter-Number Sequencing: Rearrange the sequence with numbers first in ascending order, followed by letters in alphabetical order.
 
-Letter-Number Sequencing: A combination of digits and letters that must be rearranged (numbers first, followed by letters).
+## Project Structure ##
+
+src/main/java/org/digit_span/: Contains Java source files
+
+      digit_span_util/: Utility classes for game logic
+
+      servlet/: Servlet classes for handling HTTP requests
+
+  src/main/webapp/: Web resources
+
+      WEB-INF/: Configuration files
+      
+      *.jsp: JavaServer Pages for the user interface
+
+
+pom.xml: Maven project configuration file
+
