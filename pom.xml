@@ -1,0 +1,111 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.hibernate.orm</groupId>
+    <artifactId>DigitSpan</artifactId>
+    <version>6.5.1.Final</version>
+    <name>Hibernate ORM - hibernate-core</name>
+    <description>Hibernate's core ORM functionality</description>
+    <url>https://hibernate.org/orm</url>
+    <organization>
+        <name>Hibernate.org</name>
+        <url>https://hibernate.org</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>GNU Library General Public License v2.1 or later</name>
+            <url>https://www.opensource.org/licenses/LGPL-2.1</url>
+            <distribution>repo</distribution>
+            <comments>See discussion at https://hibernate.org/community/license/ for more details.</comments>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>hibernate-team</id>
+            <name>The Hibernate Development Team</name>
+            <organization>Hibernate.org</organization>
+            <organizationUrl>https://hibernate.org</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:https://github.com/hibernate/hibernate-orm.git</connection>
+        <developerConnection>scm:git:git@github.com:hibernate/hibernate-orm.git</developerConnection>
+        <url>https://github.com/hibernate/hibernate-orm</url>
+    </scm>
+    <issueManagement>
+        <system>jira</system>
+        <url>https://hibernate.atlassian.net/browse/HHH</url>
+    </issueManagement>
+    <dependencies>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.14.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate.common</groupId>
+            <artifactId>hibernate-commons-annotations</artifactId>
+            <version>6.0.6.Final</version>
+            <scope>runtime</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.5.0.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>14</source>
+                    <target>14</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

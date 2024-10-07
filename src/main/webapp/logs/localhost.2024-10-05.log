@@ -1,0 +1,267 @@
+05-Oct-2024 20:52:58.977 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/digit-span] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\PC\Desktop\MYPROJECTS\DigitSpan\src\main\webapp\work\Catalina\localhost\digit-span\org\apache\jsp\digit_002dspan_002dpage_jsp.java]
+Only a type can be imported. com.fasterxml.jackson.databind.ObjectMapper resolves to a package
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\PC\Desktop\MYPROJECTS\DigitSpan\src\main\webapp\work\Catalina\localhost\digit-span\org\apache\jsp\digit_002dspan_002dpage_jsp.java]
+Only a type can be imported. com.fasterxml.jackson.databind.ObjectMapper resolves to a package
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:553)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Oct-2024 21:00:37.725 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/digit-span] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\PC\Desktop\MYPROJECTS\DigitSpan\src\main\webapp\work\Catalina\localhost\digit-span\org\apache\jsp\digit_002dspan_002dpage_jsp.java]
+Only a type can be imported. com.fasterxml.jackson.databind.ObjectMapper resolves to a package
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\PC\Desktop\MYPROJECTS\DigitSpan\src\main\webapp\work\Catalina\localhost\digit-span\org\apache\jsp\digit_002dspan_002dpage_jsp.java]
+Only a type can be imported. com.fasterxml.jackson.databind.ObjectMapper resolves to a package
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:553)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Oct-2024 21:01:10.283 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/digit-span] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\PC\Desktop\MYPROJECTS\DigitSpan\src\main\webapp\work\Catalina\localhost\digit-span\org\apache\jsp\digit_002dspan_002dpage_jsp.java]
+Only a type can be imported. com.fasterxml.jackson.databind.ObjectMapper resolves to a package
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\PC\Desktop\MYPROJECTS\DigitSpan\src\main\webapp\work\Catalina\localhost\digit-span\org\apache\jsp\digit_002dspan_002dpage_jsp.java]
+Only a type can be imported. com.fasterxml.jackson.databind.ObjectMapper resolves to a package
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+An error occurred at line: [194] in the jsp file: [/digit-span-page.jsp]
+ObjectMapper cannot be resolved to a type
+191:     }
+192: 
+193:     ArrayList<Integer> randomizedSequence = (ArrayList<Integer>) session.getAttribute("randomizedSequence");
+194:     ObjectMapper objMapper = new ObjectMapper();
+195:     String jsonData = objMapper.writeValueAsString(randomizedSequence);
+196:     String indicatorValue = String.valueOf(session.getAttribute("indicatorValue"));
+197: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:553)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
