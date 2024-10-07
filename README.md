@@ -51,6 +51,14 @@ CSS: For styling the UI.
 
 Jackson Databind: Used to handle JSON operations in the backend.
 
+## Setup
+
+1) Clone the repository
+   
+git clone https://github.com/your-username/working-memory-game.git
+
+2) 
+
 ## How to Play
 
 Choose a mode from the dropdown menu.
